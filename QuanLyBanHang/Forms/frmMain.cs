@@ -259,5 +259,15 @@ namespace QuanLyBanHang.Forms
             }
             ChuaDangNhap();
         }
+
+        private void mnuTroGiup_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHuongDanSuDung_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, helpProvider1.HelpNamespace);
+        }
     }
 }

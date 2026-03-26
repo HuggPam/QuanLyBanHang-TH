@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             groupBox1 = new GroupBox();
             cboKhachHang = new ComboBox();
             cboNhanVien = new ComboBox();
@@ -72,8 +72,10 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(txtGhiChuHoaDon);
             groupBox1.Location = new Point(2, 0);
+            groupBox1.Margin = new Padding(2, 2, 2, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(935, 161);
+            groupBox1.Padding = new Padding(2, 2, 2, 2);
+            groupBox1.Size = new Size(748, 129);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin hóa đơn";
@@ -81,51 +83,57 @@
             // cboKhachHang
             // 
             cboKhachHang.FormattingEnabled = true;
-            cboKhachHang.Location = new Point(599, 41);
+            cboKhachHang.Location = new Point(479, 33);
+            cboKhachHang.Margin = new Padding(2, 2, 2, 2);
             cboKhachHang.Name = "cboKhachHang";
-            cboKhachHang.Size = new Size(305, 33);
+            cboKhachHang.Size = new Size(245, 28);
             cboKhachHang.TabIndex = 5;
             // 
             // cboNhanVien
             // 
             cboNhanVien.FormattingEnabled = true;
-            cboNhanVien.Location = new Point(196, 41);
+            cboNhanVien.Location = new Point(157, 33);
+            cboNhanVien.Margin = new Padding(2, 2, 2, 2);
             cboNhanVien.Name = "cboNhanVien";
-            cboNhanVien.Size = new Size(252, 33);
+            cboNhanVien.Size = new Size(202, 28);
             cboNhanVien.TabIndex = 4;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(467, 46);
+            label3.Location = new Point(374, 37);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(126, 25);
+            label3.Size = new Size(105, 20);
             label3.TabIndex = 3;
             label3.Text = "Khách hàng(*):";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(43, 106);
+            label2.Location = new Point(34, 85);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(147, 25);
+            label2.Size = new Size(120, 20);
             label2.TabIndex = 2;
             label2.Text = "Ghi chú hóa đơn:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(43, 46);
+            label1.Location = new Point(34, 37);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(142, 25);
+            label1.Size = new Size(119, 20);
             label1.TabIndex = 1;
             label1.Text = "Nhân viên lập(*):";
             // 
             // txtGhiChuHoaDon
             // 
-            txtGhiChuHoaDon.Location = new Point(196, 103);
+            txtGhiChuHoaDon.Location = new Point(157, 82);
+            txtGhiChuHoaDon.Margin = new Padding(2, 2, 2, 2);
             txtGhiChuHoaDon.Name = "txtGhiChuHoaDon";
-            txtGhiChuHoaDon.Size = new Size(708, 31);
+            txtGhiChuHoaDon.Size = new Size(567, 27);
             txtGhiChuHoaDon.TabIndex = 0;
             // 
             // groupBox2
@@ -139,45 +147,51 @@
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(dataGridView);
-            groupBox2.Location = new Point(2, 162);
+            groupBox2.Location = new Point(2, 130);
+            groupBox2.Margin = new Padding(2, 2, 2, 2);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(935, 336);
+            groupBox2.Padding = new Padding(2, 2, 2, 2);
+            groupBox2.Size = new Size(748, 269);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Thông tin chi tiết hóa đơn";
             // 
             // numSoLuongBan
             // 
-            numSoLuongBan.Location = new Point(429, 57);
+            numSoLuongBan.Location = new Point(343, 46);
+            numSoLuongBan.Margin = new Padding(2, 2, 2, 2);
             numSoLuongBan.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numSoLuongBan.Name = "numSoLuongBan";
-            numSoLuongBan.Size = new Size(180, 31);
+            numSoLuongBan.Size = new Size(144, 27);
             numSoLuongBan.TabIndex = 8;
             numSoLuongBan.ThousandsSeparator = true;
             // 
             // numDonGiaBan
             // 
-            numDonGiaBan.Location = new Point(212, 57);
+            numDonGiaBan.Location = new Point(170, 46);
+            numDonGiaBan.Margin = new Padding(2, 2, 2, 2);
             numDonGiaBan.Maximum = new decimal(new int[] { 1000000000, 0, 0, 0 });
             numDonGiaBan.Name = "numDonGiaBan";
-            numDonGiaBan.Size = new Size(180, 31);
+            numDonGiaBan.Size = new Size(144, 27);
             numDonGiaBan.TabIndex = 7;
             numDonGiaBan.ThousandsSeparator = true;
             // 
             // cboSanPham
             // 
             cboSanPham.FormattingEnabled = true;
-            cboSanPham.Location = new Point(24, 55);
+            cboSanPham.Location = new Point(19, 44);
+            cboSanPham.Margin = new Padding(2, 2, 2, 2);
             cboSanPham.Name = "cboSanPham";
-            cboSanPham.Size = new Size(166, 33);
+            cboSanPham.Size = new Size(134, 28);
             cboSanPham.TabIndex = 6;
             cboSanPham.SelectionChangeCommitted += cboSanPham_SelectionChangeCommitted;
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(792, 53);
+            btnXoa.Location = new Point(634, 42);
+            btnXoa.Margin = new Padding(2, 2, 2, 2);
             btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(112, 34);
+            btnXoa.Size = new Size(90, 27);
             btnXoa.TabIndex = 5;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = true;
@@ -185,9 +199,10 @@
             // 
             // btnXacNhanBan
             // 
-            btnXacNhanBan.Location = new Point(634, 53);
+            btnXacNhanBan.Location = new Point(507, 42);
+            btnXacNhanBan.Margin = new Padding(2, 2, 2, 2);
             btnXacNhanBan.Name = "btnXacNhanBan";
-            btnXacNhanBan.Size = new Size(150, 34);
+            btnXacNhanBan.Size = new Size(120, 27);
             btnXacNhanBan.TabIndex = 4;
             btnXacNhanBan.Text = "Xác nhận bán";
             btnXacNhanBan.UseVisualStyleBackColor = true;
@@ -196,27 +211,30 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(429, 29);
+            label6.Location = new Point(343, 23);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(142, 25);
+            label6.Size = new Size(117, 20);
             label6.TabIndex = 3;
             label6.Text = "Số lượng bán(*):";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(212, 27);
+            label5.Location = new Point(170, 22);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(132, 25);
+            label5.Size = new Size(110, 20);
             label5.TabIndex = 2;
             label5.Text = "Đơn giá bán(*):";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(24, 27);
+            label4.Location = new Point(19, 22);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(114, 25);
+            label4.Size = new Size(94, 20);
             label4.TabIndex = 1;
             label4.Text = "Sản phẩm(*):";
             // 
@@ -228,11 +246,12 @@
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Columns.AddRange(new DataGridViewColumn[] { SanPhamID, TenSanPham, DonGiaBan, SoLuongBan, ThanhTien });
             dataGridView.Dock = DockStyle.Bottom;
-            dataGridView.Location = new Point(3, 108);
+            dataGridView.Location = new Point(2, 87);
+            dataGridView.Margin = new Padding(2, 2, 2, 2);
             dataGridView.MultiSelect = false;
             dataGridView.Name = "dataGridView";
             dataGridView.RowHeadersWidth = 62;
-            dataGridView.Size = new Size(929, 225);
+            dataGridView.Size = new Size(744, 180);
             dataGridView.TabIndex = 0;
             // 
             // SanPhamID
@@ -252,29 +271,29 @@
             // DonGiaBan
             // 
             DonGiaBan.DataPropertyName = "DonGiaBan";
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N0";
-            DonGiaBan.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle1.Format = "N0";
+            DonGiaBan.DefaultCellStyle = dataGridViewCellStyle1;
             DonGiaBan.HeaderText = "Đơn giá bán";
             DonGiaBan.MinimumWidth = 8;
             DonGiaBan.Name = "DonGiaBan";
             // 
             // SoLuongBan
             // 
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N0";
-            SoLuongBan.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N0";
+            SoLuongBan.DefaultCellStyle = dataGridViewCellStyle2;
             SoLuongBan.HeaderText = "Số lượng bán";
             SoLuongBan.MinimumWidth = 8;
             SoLuongBan.Name = "SoLuongBan";
             // 
             // ThanhTien
             // 
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.BackColor = Color.Blue;
-            dataGridViewCellStyle6.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle6.Format = "N0";
-            ThanhTien.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.BackColor = Color.Blue;
+            dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.Format = "N0";
+            ThanhTien.DefaultCellStyle = dataGridViewCellStyle3;
             ThanhTien.HeaderText = "Thành tiền";
             ThanhTien.MinimumWidth = 8;
             ThanhTien.Name = "ThanhTien";
@@ -282,9 +301,10 @@
             // btnLuuHoaDon
             // 
             btnLuuHoaDon.ForeColor = Color.Blue;
-            btnLuuHoaDon.Location = new Point(132, 520);
+            btnLuuHoaDon.Location = new Point(106, 416);
+            btnLuuHoaDon.Margin = new Padding(2, 2, 2, 2);
             btnLuuHoaDon.Name = "btnLuuHoaDon";
-            btnLuuHoaDon.Size = new Size(163, 34);
+            btnLuuHoaDon.Size = new Size(130, 27);
             btnLuuHoaDon.TabIndex = 2;
             btnLuuHoaDon.Text = "Lưu hóa đơn";
             btnLuuHoaDon.UseVisualStyleBackColor = true;
@@ -292,9 +312,10 @@
             // 
             // btnInHoaDon
             // 
-            btnInHoaDon.Location = new Point(413, 520);
+            btnInHoaDon.Location = new Point(330, 416);
+            btnInHoaDon.Margin = new Padding(2, 2, 2, 2);
             btnInHoaDon.Name = "btnInHoaDon";
-            btnInHoaDon.Size = new Size(112, 34);
+            btnInHoaDon.Size = new Size(90, 27);
             btnInHoaDon.TabIndex = 3;
             btnInHoaDon.Text = "in hóa đơn";
             btnInHoaDon.UseVisualStyleBackColor = true;
@@ -302,9 +323,10 @@
             // btnThoat
             // 
             btnThoat.ForeColor = Color.Red;
-            btnThoat.Location = new Point(661, 520);
+            btnThoat.Location = new Point(529, 416);
+            btnThoat.Margin = new Padding(2, 2, 2, 2);
             btnThoat.Name = "btnThoat";
-            btnThoat.Size = new Size(112, 34);
+            btnThoat.Size = new Size(90, 27);
             btnThoat.TabIndex = 4;
             btnThoat.Text = "Thoát";
             btnThoat.UseVisualStyleBackColor = true;
@@ -312,14 +334,15 @@
             // 
             // frmHoaDon_ChiTiet
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(937, 575);
+            ClientSize = new Size(750, 460);
             Controls.Add(btnThoat);
             Controls.Add(btnInHoaDon);
             Controls.Add(btnLuuHoaDon);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "frmHoaDon_ChiTiet";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Hóa đơn chi tiết";
