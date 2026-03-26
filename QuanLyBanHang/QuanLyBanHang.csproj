@@ -17,7 +17,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="ReportViewerCore.WinForms" Version="15.1.33" />
+    <PackageReference Include="reportviewercore.winforms" Version="15.1.33" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,9 +48,6 @@
     <None Update="Reports\QLBHDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>QLBHDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Update="Reports\rptThongKeDoanhThu.rdlc">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Reports\rptThongKeSanPham.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

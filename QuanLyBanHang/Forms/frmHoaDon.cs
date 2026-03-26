@@ -1,5 +1,6 @@
 ﻿using ClosedXML.Excel;
 using QuanLyBanHang.Data;
+using QuanLyBanHang.Reports;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -51,7 +52,11 @@ namespace QuanLyBanHang.Forms
 
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
-
+            id = Convert.ToInt32(dataGridView.CurrentRow.Cells["ID"].Value.ToString());
+            using (frmInHoaDon inHoaDon = new frmInHoaDon(id))
+            {
+                inHoaDon.ShowDialog();
+            }
         }
 
         private void btnSua_Click(object sender, EventArgs e)
